@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+}
+
+#wrapper {
+    width: 801px;
+    margin: 100px auto;
+    border: 3px solid orange;
+    padding-left: 30px;
+}
+
+#goBack {
+    margin-left: 735px;
+}
+
+h1 {
+    margin-bottom: 25px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+#desc {
+    display: flex;
+}

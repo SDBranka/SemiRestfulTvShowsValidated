@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+}
+
+#wrapper {
+    width: 801px;
+    margin: 100px auto;
+    border: 3px solid orange;
+    padding-left: 30px;
+}
+
+#goBack {
+    margin-left: 735px;
+}
+
+#errors {
+    color: red;
+}
+
+h1 {
+    padding-left: 160px;
+}
+
+#title_input {
+    width: 70%;
+}
+
+p {
+    margin-top: 10px;
+}
+
+span {
+    margin-left: 300px;
+}
+
+#network_input {
+    width: 40%;
+}
+
+#date_input {
+    margin-left: 33px;
+    width: 25%;
+}
+
+textarea {
+    width: 70%;
+}
+
+button {
+    margin: 10px 0px 10px 250px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#toShow {
+    margin: 0px 0px 20px 240px;
+    padding-bottom: 20px;
+}

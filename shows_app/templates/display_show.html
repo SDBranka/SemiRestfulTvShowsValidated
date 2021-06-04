@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Semi-Restful TV Shows</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'css/display_show.css' %}">
+    </head>
+    <body>
+        <div id="wrapper">
+            <a href="/shows" id="goBack">Go Back</a>
+            <h1>TV Show {{this_show.id}}</h1>
+            <p>Title: {{this_show.title}}</p>
+            <p>Network: {{this_show.network}}</p>
+            <p>Release Date: {{this_show.release_date}}</p>
+            <div id="desc">
+                <p>Description: </p>
+                <p>{{this_show.desc}}</p>
+            </div>
+            <p>Last Updated: {{this_show.updated_at}}</p>
+            <p>
+                <a href="/shows/{{this_show.id}}/edit">Edit</a>   |   <a href="/shows/{{this_show.id}}/destroy">Delete</a>
+            </p>
+
+
+        </div>      <!--end wrapper--> 
+    </body>
+</html>
